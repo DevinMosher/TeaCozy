@@ -1,0 +1,197 @@
+/* General Sytling */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+}
+ body {
+   margin-top: 0;
+ }
+
+a {
+  color: seashell;
+
+}
+
+/* Header */
+
+
+.header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  position: fixed!important;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+ 
+
+
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+}
+.header img {
+  height: 50px;
+  margin-left: 10px;
+
+
+}
+.navbar {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-around;
+  margin-right: 15px;
+}
+span {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+/* Mission Statement */
+
+
+.mission {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 700px;
+    width: 1200px;
+    background-image: url(../images/teamissionbackground.jpg);
+}
+.statement {
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
+    width: 1200px;
+    height: 115px;
+}
+.statement h2, .statement h4 {
+  margin: 18px auto;
+}
+
+/* Featured Tea  */
+
+.featured1 {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+}
+.featured2 {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+.totm {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+
+}
+.totm h2 {
+  padding-top: 10px;
+  margin-top: 70px;
+  padding-bottom: 5px;
+}
+.totm h4 {
+  padding-top: -10px;
+  margin-top: -10px;
+}
+
+.tea1, .tea2, .tea3, .tea4, .tea5 {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   
+}
+.tea4, .tea5 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.featured1 h4, .featured2 h4 {
+  margin: 0px 0px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.featured1 img, .featured2 img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Locations */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/tealocationsbackground.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 60px;
+  align-items: center;
+}
+.address {
+  display: flex;
+  flex-direction: row;
+}
+.downtown, .eastbayside, .oakdale {
+  background-color: black;
+  opacity: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0px;
+
+}
+.title {
+  margin-top: 50px;
+  padding-bottom: 0px;
+}
+
+/* Contact */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  margin-top: -10px;
+  
+}
+.contact h5 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
+
